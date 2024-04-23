@@ -1,0 +1,1 @@
+export type IProject  = "icap" | 'viva-vida';

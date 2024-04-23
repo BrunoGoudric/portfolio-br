@@ -1,0 +1,36 @@
+.About .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 138px;
+    flex-wrap: wrap;
+
+    margin-top: 100px;
+}
+
+.contentInfo{
+    width: 100%;
+    max-width: 643px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+
+}
+
+.contentInfo h2{
+    font-size: 45px;
+    color: #fff;
+
+}
+
+
+.contentInfo ul li {
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,28 @@
+.boxHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.boxHeader a{
+    border-right: 1px solid #FFF;
+    padding-right: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.boxHeader a:nth-child(4){
+    border-right: none;
+}
+
+.boxHeader a:hover{
+    color: #858484;
+}
