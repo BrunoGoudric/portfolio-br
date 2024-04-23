@@ -5,7 +5,7 @@ function Header(){
 
     return (
         <div className="boxHeader">
-            <Link to="/">Início</Link>
+            <Link to="/portfolio-br">Início</Link>
             <Link to="/sobre">Sobre</Link>
             <Link to="/projetos">Projetos</Link>
             <Link to="/contato">Contato</Link>
